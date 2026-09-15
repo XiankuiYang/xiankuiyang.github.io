@@ -1,0 +1,114 @@
+---
+title: "Research"
+title-block-banner: false
+page-layout: full
+---
+<div class="research-page">
+
+<div class="research-intro">
+
+<p>
+My research focuses on statistical methodology, optimal experimental design,
+computational statistics, optimization, and machine learning. I am particularly
+interested in developing computational methods for complex statistical
+problems, including multi-objective design optimization and robust statistical
+modeling.
+</p>
+
+</div>
+
+
+<div class="research-grid">
+
+<div class="research-card">
+
+<div class="research-number">01</div>
+
+<h2>Optimal Experimental Design</h2>
+
+<p>
+My research investigates computational approaches for constructing optimal
+experimental designs under multiple competing criteria. Current work focuses
+on multi-objective optimization involving I-, G-, and D-optimality and the
+construction of Pareto-optimal design sets.
+</p>
+
+<div class="research-tags">
+<span>Optimal Design</span>
+<span>Multi-objective Optimization</span>
+<span>Pareto Front</span>
+</div>
+
+</div>
+
+<div class="research-card">
+
+<div class="research-number">02</div>
+
+<h2>Sequential Experimental Design</h2>
+
+<p>
+My research also considers sequential experimental design, where new design
+points are selected adaptively using information obtained from previous
+observations. I am particularly interested in space-filling strategies and
+computational methods for sequentially exploring the design space while
+improving the efficiency of data collection.
+</p>
+
+<div class="research-tags">
+  <span>Sequential Design</span>
+  <span>Space-Filling Design</span>
+  <span>Adaptive Design</span>
+  <div class="tag-break"></div>
+  <span>Design Augmentation</span>
+</div>
+
+</div>
+
+
+<div class="research-card">
+
+<div class="research-number">03</div>
+
+<h2>Statistical Methodology & Robust Modeling</h2>
+
+<p>
+I study statistical modeling methods with particular interest in robustness
+and alternative estimation criteria. Recent work examines logistic regression
+under data contamination and compares likelihood-based estimation with
+distance-based methods for improving robustness to outliers.
+</p>
+
+<div class="research-tags">
+<span>Statistical Modeling</span>
+<span>Logistic Regression</span>
+<span>Robust Statistics</span>
+</div>
+
+</div>
+
+
+<div class="research-card">
+
+<div class="research-number">04</div>
+
+<h2>Computational Statistics & Machine Learning</h2>
+
+<p>
+I develop and apply computational optimization methods for statistical
+problems, with particular emphasis on particle swarm optimization and
+population-based algorithms. My work also explores machine learning methods
+and computational implementations using R, Python, and PyTorch.
+</p>
+
+<div class="research-tags">
+<span>Particle Swarm Optimization</span>
+<span>Machine Learning</span>
+<span>Scientific Computing</span>
+</div>
+
+</div>
+
+</div>
+
+</div>

@@ -1,0 +1,96 @@
+---
+page-layout: full
+title-block-banner: false
+---
+
+
+```{=html}
+<div class="academic-banner">
+
+  <div class="banner-left">
+    <span class="word-stat">Statistics</span>
+    <span class="word-design">Optimal Design</span>
+    <span class="word-ml">Machine Learning</span>
+  </div>
+
+  <div class="banner-center">
+    <div class="banner-name">Xiankui Yang</div>
+    <div class="academic-title">Postdoctoral Scholar</div>
+    <div class="academic-affiliation">
+      Department of Mathematics and Statistics<br>
+      University of South Florida
+    </div>
+  </div>
+
+  <div class="banner-right">
+    <span class="formula-ex">E(Y | X)</span>
+    <span class="formula-var">Var(Y)</span>
+    <span class="formula-arg">arg min</span>
+    <span class="formula-theta">&theta;</span>
+  </div>
+
+  <div class="histogram">
+    <span></span><span></span><span></span><span></span>
+    <span></span><span></span><span></span><span></span>
+    <span></span>
+  </div>
+
+  <div class="curve curve-1"></div>
+  <div class="curve curve-2"></div>
+
+  <div class="hexagons">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+
+</div>
+```
+
+::: {.home-about}
+
+::: {.profile-photo}
+![](images/profile.png){fig-alt="Xiankui Yang"}
+:::
+
+::: {.about-content}
+
+## About Me
+
+I am a Postdoctoral Scholar in the Department of Mathematics and Statistics at the University of South Florida. I received my Ph.D. in Mathematics with a concentration in Statistics from the University of South Florida. My research interests include statistical methodology, optimal experimental design, computational statistics, optimization, and machine learning. My current research focuses on developing computational methods for multi-objective optimal design and exploring optimization-based approaches for statistical modeling and learning.
+
+::: {.profile-links}
+[CV](cv.qmd){.btn .btn-primary}
+[Research](research.qmd){.btn .btn-primary}
+[Teaching](teaching.qmd){.btn .btn-primary}
+[Publications](publications.qmd){.btn .btn-primary}
+:::
+
+```{=html}
+<div class="contact-links">
+
+  <a href="mailto:xiankuiyang@usf.edu">
+    <i class="bi bi-envelope-fill"></i>
+    Email
+  </a>
+
+  <a href="https://scholar.google.com/citations?user=ZHaZMIMAAAAJ&hl=en"
+     target="_blank">
+    <i class="bi bi-mortarboard-fill"></i>
+    Google Scholar
+  </a>
+
+  <a href="https://www.linkedin.com/in/xiankuiyang/"
+     target="_blank">
+    <i class="bi bi-linkedin"></i>
+    LinkedIn
+  </a>
+
+</div>
+
+```
+
+:::
+
+:::

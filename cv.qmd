@@ -1,0 +1,30 @@
+---
+page-layout: full
+---
+
+```{=html}
+<div class="cv-page">
+
+<div class="cv-actions">
+<a href="files/Xiankui_Yang_CV.pdf"
+   target="_blank"
+   class="cv-button">
+View CV
+</a>
+
+<a href="files/Xiankui_Yang_CV.pdf"
+   download
+   class="cv-button cv-button-outline">
+Download CV
+</a>
+</div>
+
+<div class="cv-viewer">
+<iframe
+  src="files/Xiankui_Yang_CV.pdf"
+  title="Xiankui Yang Curriculum Vitae">
+</iframe>
+</div>
+
+</div>
+```

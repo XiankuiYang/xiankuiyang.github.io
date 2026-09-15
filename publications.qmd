@@ -1,0 +1,46 @@
+---
+title: "Publications"
+---
+
+## Peer-Reviewed Journal Articles {.unanchored}
+
+::: {.publication-list}
+
+1. **Yang, X.**, Lu, L., & Anderson-Cook, C. M. (2026). Quick Input-Response Space-Filling (QIRSF) Designs. *Quality and Reliability Engineering International*. [DOI](https://doi.org/10.1002/qre.70062)
+
+2. Chen, P., **Yang, X.**, Hao, F., & Tao, R. (2026). Decoding electric vehicle adoption using XGBoost and SHAP analysis. *Travel Behaviour and Society, 42*, 101125. [DOI](https://doi.org/10.1016/j.tbs.2025.101125)
+
+3. Chen, P., & **Yang, X.** (2025). Premature casual carpooling in Texas: analyzing customer churn in the Metropia experiment with survival analysis and machine learning. *Case Studies on Transport Policy*, 101587. [DOI](https://doi.org/10.1016/j.cstp.2025.101587)
+
+4. **Yang, X.**, Lu, L., & Anderson-Cook, C. M. (2025). A scalable algorithm for generating non-uniform space-filling designs. *Journal of Quality Technology*, 1–19. [DOI](https://doi.org/10.1080/00224065.2025.2513504)
+
+5. Chen, P., **Yang, X.**, Zhang, Y., & Hud, S. (2025). The resiliency of transit and ride-hailing system through the coronavirus pandemic: Lessons from six large US cities. *Case Studies on Transport Policy*, 101470. [DOI](https://doi.org/10.1016/j.cstp.2025.101470)
+
+6. Tao, R., **Yang, X.**, Hao, F., & Chen, P. (2024). Demographic disparity and influences in electric vehicle adoption: A Florida case study. *Transportation Research Part D: Transport and Environment, 136*, 104465. [DOI](https://doi.org/10.1016/j.trd.2024.104465)
+
+7. Chen, P., **Yang, X.**, & Zhang, Y. (2024). Exploring the interconnection between telecommuting, trip reduction, and transportation equity amidst the coronavirus pandemic. *Transportation Letters*, 1–11. [DOI](https://doi.org/10.1080/19427867.2024.2366377)
+
+8. **Yang, X.**, Lu, L., & Anderson-Cook, C. M. (2024). Input-response space-filling designs incorporating response uncertainty. *Statistical Analysis and Data Mining: The ASA Data Science Journal, 17*(1), e11648. [DOI](https://doi.org/10.1002/sam.11648)
+
+9. **Yang, X.**, Chen, P., & Zhang, Y. (2023). How mentally healthy were we during the pandemic? Findings from changed travel behavior. *Journal of Transport & Health, 29*, 101587. [DOI](https://doi.org/10.1016/j.jth.2023.101587)
+
+10. Chen, P., & **Yang, X.** (2023). Revisit employer-based travel demand management: A longitudinal analysis. *Transport Policy, 131*, 22–31. [DOI](https://doi.org/10.1016/j.tranpol.2022.11.014)
+
+11. Chen, P., Zhai, W., & **Yang, X.** (2023). Enhancing resilience and mobility services for vulnerable groups facing extreme weather: lessons learned from Snowstorm Uri in Harris County, Texas. *Natural Hazards, 118*(2), 1573–1594. [DOI](https://doi.org/10.1007/s11069-023-06062-2)
+
+:::
+
+
+## Technical Reports {.unanchored}
+
+::: {.publication-list}
+
+1. Rodriguez-Roman, D. A., Chen, P., **Yang, X.**, Carlo Colón, H., Santiago, N. G., Tao, R., & Figueroa Medina, A. M. (2024). *Carpool-based Parking Assignment Policy*. National Institute for Congestion Reduction. [Report](https://doi.org/10.5038/CUTR-NICR-Y3-2-10)
+
+2. Chen, P., Nguyen, T., Winters, P., **Yang, X.**, Lee, D. H., Li, W., & Quadrifoglio, L. (2023). *Social Carpooling-Based Road Congestion Mitigation: A Three-Level Analysis*. National Institute for Congestion Reduction. [Report](https://digitalcommons.usf.edu/cutr_nicr/33/)
+
+3. Chen, P., **Yang, X.**, Winters, P. L., Li, M., Rodriguez, D. A., Montilla, M. A. N., & Chatman, D. G. (2021). *Impacts of commute trip reduction programs, rail station area built environment changes, and ride-hailing services on traveler behavior*. National Institute for Congestion Reduction. [Report](https://digitalcommons.usf.edu/cutr_nicr/12/)
+
+4. Chen, P., **Yang, X.**, & Zhang, Y. (Submitted). *Mobility Challenges of Female Minority Workforce During the Coronavirus Pandemic*. Center for Transportation, Environment, and Community Health.
+
+:::

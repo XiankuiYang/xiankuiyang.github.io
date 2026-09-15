@@ -1,0 +1,100 @@
+---
+title: "Teaching"
+---
+
+::: {.teaching-page}
+
+## Instructor {.unanchored}
+
+::: {.instructor-grid}
+
+::: {.course-card}
+<div class="course-semester">Fall 2026</div>
+
+### STA 4322 — Introduction to Mathematical Statistics I {.unanchored}
+
+<div class="course-university">University of South Florida</div>
+
+An introduction to mathematical statistics covering probability distributions,
+sampling distributions, estimation, and fundamental statistical theory.
+
+<div class="course-tags">
+<span>Mathematical Statistics</span>
+<span>Probability</span>
+<span>Statistical Inference</span>
+</div>
+:::
+
+
+::: {.course-card}
+<div class="course-semester">Spring 2026</div>
+
+### STA 4222 — Sample Survey Design {.unanchored}
+
+<div class="course-university">University of South Florida</div>
+
+Topics include principles of sample survey design, probability sampling,
+estimation, and practical methods for collecting and analyzing survey data.
+
+<div class="course-tags">
+<span>Survey Sampling</span>
+<span>Sampling Design</span>
+<span>Estimation</span>
+</div>
+:::
+
+
+::: {.course-card}
+<div class="course-semester">Fall 2024</div>
+
+### STA 4102 — Methods for Applied Statistics {.unanchored}
+
+<div class="course-university">University of South Florida</div>
+
+Applied statistical methods with emphasis on statistical analysis,
+interpretation of results, and applications to real-world data.
+
+<div class="course-tags">
+<span>Applied Statistics</span>
+<span>Data Analysis</span>
+<span>Statistical Modeling</span>
+</div>
+:::
+
+:::
+
+
+## Teaching Assistant {.unanchored}
+
+::: {.ta-list}
+
+**Summer 2026**  
+STA 2023 — Introductory Statistics I
+
+**Fall 2025**  
+STA 5446 — Probability Theory I  
+STA 5166 — Statistical Methods I  
+STA 4702 — Multivariate Statistical Methods
+
+**Spring 2025**  
+STA 4322 — Introduction to Mathematical Statistics II  
+STA 4502 — Nonparametric Statistical Methods  
+STA 4671 — Reliability
+
+**Summer 2024**  
+STA 2023 — Introductory Statistics I
+
+**Spring 2024**  
+STA 3024 — Introductory Statistics II  
+STA 4442 — Introduction to Probability  
+Smart Lab
+
+**Fall 2023**  
+MTG 3207 — Geometry Connections  
+MTG 3212 — Geometry  
+STA 4852 — Applied Time Series  
+Smart Lab
+
+:::
+
+:::

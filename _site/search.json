@@ -1,0 +1,100 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Xiankui Yang",
+    "section": "",
+    "text": "Statistics\n    Optimal Design\n    Machine Learning\n  \n\n  \n    Xiankui Yang\n    Postdoctoral Scholar\n    \n      Department of Mathematics and Statistics\n      University of South Florida\n    \n  \n\n  \n    E(Y | X)\n    Var(Y)\n    arg min\n    θ"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "index.html#about-me",
+    "href": "index.html#about-me",
+    "title": "Xiankui Yang",
+    "section": "About Me",
+    "text": "About Me\nI am a Postdoctoral Scholar in the Department of Mathematics and Statistics at the University of South Florida. I received my Ph.D. in Mathematics with a concentration in Statistics from the University of South Florida. My research interests include statistical methodology, optimal experimental design, computational statistics, optimization, and machine learning. My current research focuses on developing computational methods for multi-objective optimal design and exploring optimization-based approaches for statistical modeling and learning.\n\nCV Research Teaching Publications\n\n\n\n  \n    \n    Email\n  \n\n  \n    \n    Google Scholar\n  \n\n  \n    \n    LinkedIn"
+  },
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "Xiankui Yang",
+    "section": "",
+    "text": "View CV\n\n\n\nDownload CV"
+  },
+  {
+    "objectID": "cv.html#curriculum-vitae",
+    "href": "cv.html#curriculum-vitae",
+    "title": "Curriculum Vitae",
+    "section": "",
+    "text": "View CV \n Download CV"
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "My research focuses on statistical methodology, optimal experimental design, computational statistics, optimization, and machine learning. I am particularly interested in developing computational methods for complex statistical problems, including multi-objective design optimization and robust statistical modeling.\n\n\n\n\n\n01\n\n\nOptimal Experimental Design\n\n\nMy research investigates computational approaches for constructing optimal experimental designs under multiple competing criteria. Current work focuses on multi-objective optimization involving I-, G-, and D-optimality and the construction of Pareto-optimal design sets.\n\n\nOptimal Design Multi-objective Optimization Pareto Front\n\n\n\n\n02\n\n\nSequential Experimental Design\n\n\nMy research also considers sequential experimental design, where new design points are selected adaptively using information obtained from previous observations. I am particularly interested in space-filling strategies and computational methods for sequentially exploring the design space while improving the efficiency of data collection.\n\n\nSequential Design Space-Filling Design Adaptive Design\n\n\n\nDesign Augmentation\n\n\n\n\n03\n\n\nStatistical Methodology & Robust Modeling\n\n\nI study statistical modeling methods with particular interest in robustness and alternative estimation criteria. Recent work examines logistic regression under data contamination and compares likelihood-based estimation with distance-based methods for improving robustness to outliers.\n\n\nStatistical Modeling Logistic Regression Robust Statistics\n\n\n\n\n04\n\n\nComputational Statistics & Machine Learning\n\n\nI develop and apply computational optimization methods for statistical problems, with particular emphasis on particle swarm optimization and population-based algorithms. My work also explores machine learning methods and computational implementations using R, Python, and PyTorch.\n\n\nParticle Swarm Optimization Machine Learning Scientific Computing"
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "Yang, X., Lu, L., & Anderson-Cook, C. M. (2026). Quick Input-Response Space-Filling (QIRSF) Designs. Quality and Reliability Engineering International. DOI\nChen, P., Yang, X., Hao, F., & Tao, R. (2026). Decoding electric vehicle adoption using XGBoost and SHAP analysis. Travel Behaviour and Society, 42, 101125. DOI\nChen, P., & Yang, X. (2025). Premature casual carpooling in Texas: analyzing customer churn in the Metropia experiment with survival analysis and machine learning. Case Studies on Transport Policy, 101587. DOI\nYang, X., Lu, L., & Anderson-Cook, C. M. (2025). A scalable algorithm for generating non-uniform space-filling designs. Journal of Quality Technology, 1–19. DOI\nChen, P., Yang, X., Zhang, Y., & Hud, S. (2025). The resiliency of transit and ride-hailing system through the coronavirus pandemic: Lessons from six large US cities. Case Studies on Transport Policy, 101470. DOI\nTao, R., Yang, X., Hao, F., & Chen, P. (2024). Demographic disparity and influences in electric vehicle adoption: A Florida case study. Transportation Research Part D: Transport and Environment, 136, 104465. DOI\nChen, P., Yang, X., & Zhang, Y. (2024). Exploring the interconnection between telecommuting, trip reduction, and transportation equity amidst the coronavirus pandemic. Transportation Letters, 1–11. DOI\nYang, X., Lu, L., & Anderson-Cook, C. M. (2024). Input-response space-filling designs incorporating response uncertainty. Statistical Analysis and Data Mining: The ASA Data Science Journal, 17(1), e11648. DOI\nYang, X., Chen, P., & Zhang, Y. (2023). How mentally healthy were we during the pandemic? Findings from changed travel behavior. Journal of Transport & Health, 29, 101587. DOI\nChen, P., & Yang, X. (2023). Revisit employer-based travel demand management: A longitudinal analysis. Transport Policy, 131, 22–31. DOI\nChen, P., Zhai, W., & Yang, X. (2023). Enhancing resilience and mobility services for vulnerable groups facing extreme weather: lessons learned from Snowstorm Uri in Harris County, Texas. Natural Hazards, 118(2), 1573–1594. DOI"
+  },
+  {
+    "objectID": "publications.html#peer-reviewed-journal-articles",
+    "href": "publications.html#peer-reviewed-journal-articles",
+    "title": "Publications",
+    "section": "",
+    "text": "Yang, X., Lu, L., & Anderson-Cook, C. M. (2026). Quick Input-Response Space-Filling (QIRSF) Designs. Quality and Reliability Engineering International. DOI\nChen, P., Yang, X., Hao, F., & Tao, R. (2026). Decoding electric vehicle adoption using XGBoost and SHAP analysis. Travel Behaviour and Society, 42, 101125. DOI\nChen, P., & Yang, X. (2025). Premature casual carpooling in Texas: analyzing customer churn in the Metropia experiment with survival analysis and machine learning. Case Studies on Transport Policy, 101587. DOI\nYang, X., Lu, L., & Anderson-Cook, C. M. (2025). A scalable algorithm for generating non-uniform space-filling designs. Journal of Quality Technology, 1–19. DOI\nChen, P., Yang, X., Zhang, Y., & Hud, S. (2025). The resiliency of transit and ride-hailing system through the coronavirus pandemic: Lessons from six large US cities. Case Studies on Transport Policy, 101470. DOI\nTao, R., Yang, X., Hao, F., & Chen, P. (2024). Demographic disparity and influences in electric vehicle adoption: A Florida case study. Transportation Research Part D: Transport and Environment, 136, 104465. DOI\nChen, P., Yang, X., & Zhang, Y. (2024). Exploring the interconnection between telecommuting, trip reduction, and transportation equity amidst the coronavirus pandemic. Transportation Letters, 1–11. DOI\nYang, X., Lu, L., & Anderson-Cook, C. M. (2024). Input-response space-filling designs incorporating response uncertainty. Statistical Analysis and Data Mining: The ASA Data Science Journal, 17(1), e11648. DOI\nYang, X., Chen, P., & Zhang, Y. (2023). How mentally healthy were we during the pandemic? Findings from changed travel behavior. Journal of Transport & Health, 29, 101587. DOI\nChen, P., & Yang, X. (2023). Revisit employer-based travel demand management: A longitudinal analysis. Transport Policy, 131, 22–31. DOI\nChen, P., Zhai, W., & Yang, X. (2023). Enhancing resilience and mobility services for vulnerable groups facing extreme weather: lessons learned from Snowstorm Uri in Harris County, Texas. Natural Hazards, 118(2), 1573–1594. DOI"
+  },
+  {
+    "objectID": "publications.html#technical-reports",
+    "href": "publications.html#technical-reports",
+    "title": "Publications",
+    "section": "Technical Reports",
+    "text": "Technical Reports\n\n\nRodriguez-Roman, D. A., Chen, P., Yang, X., Carlo Colón, H., Santiago, N. G., Tao, R., & Figueroa Medina, A. M. (2024). Carpool-based Parking Assignment Policy. National Institute for Congestion Reduction. Report\nChen, P., Nguyen, T., Winters, P., Yang, X., Lee, D. H., Li, W., & Quadrifoglio, L. (2023). Social Carpooling-Based Road Congestion Mitigation: A Three-Level Analysis. National Institute for Congestion Reduction. Report\nChen, P., Yang, X., Winters, P. L., Li, M., Rodriguez, D. A., Montilla, M. A. N., & Chatman, D. G. (2021). Impacts of commute trip reduction programs, rail station area built environment changes, and ride-hailing services on traveler behavior. National Institute for Congestion Reduction. Report\nChen, P., Yang, X., & Zhang, Y. (Submitted). Mobility Challenges of Female Minority Workforce During the Coronavirus Pandemic. Center for Transportation, Environment, and Community Health."
+  },
+  {
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "Fall 2026\n\n\n\n\nUniversity of South Florida\n\nAn introduction to mathematical statistics covering probability distributions, sampling distributions, estimation, and fundamental statistical theory.\n\nMathematical Statistics Probability Statistical Inference\n\n\n\n\n\nSpring 2026\n\n\n\n\nUniversity of South Florida\n\nTopics include principles of sample survey design, probability sampling, estimation, and practical methods for collecting and analyzing survey data.\n\nSurvey Sampling Sampling Design Estimation\n\n\n\n\n\nFall 2024\n\n\n\n\nUniversity of South Florida\n\nApplied statistical methods with emphasis on statistical analysis, interpretation of results, and applications to real-world data.\n\nApplied Statistics Data Analysis Statistical Modeling\n\n\n\n\n\n\n\n\nSummer 2026\nSTA 2023 — Introductory Statistics I\nFall 2025\nSTA 5446 — Probability Theory I\nSTA 5166 — Statistical Methods I\nSTA 4702 — Multivariate Statistical Methods\nSpring 2025\nSTA 4322 — Introduction to Mathematical Statistics II\nSTA 4502 — Nonparametric Statistical Methods\nSTA 4671 — Reliability\nSummer 2024\nSTA 2023 — Introductory Statistics I\nSpring 2024\nSTA 3024 — Introductory Statistics II\nSTA 4442 — Introduction to Probability\nSmart Lab\nFall 2023\nMTG 3207 — Geometry Connections\nMTG 3212 — Geometry\nSTA 4852 — Applied Time Series\nSmart Lab"
+  },
+  {
+    "objectID": "teaching.html#current-teaching",
+    "href": "teaching.html#current-teaching",
+    "title": "Teaching",
+    "section": "",
+    "text": "STA 4322\n\n\n\nUniversity of South Florida\nFall 2026\nThis course introduces fundamental concepts and methods in mathematical statistics, including probability distributions, transformations of random variables, sampling distributions, and related statistical theory.\n\nMathematical Statistics Probability Statistical Theory"
+  },
+  {
+    "objectID": "teaching.html#previous-teaching",
+    "href": "teaching.html#previous-teaching",
+    "title": "Teaching",
+    "section": "",
+    "text": "STA 2023\n\n\n\nUniversity of South Florida\nAn introductory statistics course covering descriptive statistics, probability, statistical inference, confidence intervals, and hypothesis testing.\n\nIntroductory Statistics Probability Statistical Inference"
+  },
+  {
+    "objectID": "teaching.html#instructor",
+    "href": "teaching.html#instructor",
+    "title": "Teaching",
+    "section": "",
+    "text": "Fall 2026\n\n\n\n\nUniversity of South Florida\n\nAn introduction to mathematical statistics covering probability distributions, sampling distributions, estimation, and fundamental statistical theory.\n\nMathematical Statistics Probability Statistical Inference\n\n\n\n\n\nSpring 2026\n\n\n\n\nUniversity of South Florida\n\nTopics include principles of sample survey design, probability sampling, estimation, and practical methods for collecting and analyzing survey data.\n\nSurvey Sampling Sampling Design Estimation\n\n\n\n\n\nFall 2024\n\n\n\n\nUniversity of South Florida\n\nApplied statistical methods with emphasis on statistical analysis, interpretation of results, and applications to real-world data.\n\nApplied Statistics Data Analysis Statistical Modeling"
+  },
+  {
+    "objectID": "teaching.html#teaching-assistant",
+    "href": "teaching.html#teaching-assistant",
+    "title": "Teaching",
+    "section": "",
+    "text": "Summer 2026\nSTA 2023 — Introductory Statistics I\nFall 2025\nSTA 5446 — Probability Theory I\nSTA 5166 — Statistical Methods I\nSTA 4702 — Multivariate Statistical Methods\nSpring 2025\nSTA 4322 — Introduction to Mathematical Statistics II\nSTA 4502 — Nonparametric Statistical Methods\nSTA 4671 — Reliability\nSummer 2024\nSTA 2023 — Introductory Statistics I\nSpring 2024\nSTA 3024 — Introductory Statistics II\nSTA 4442 — Introduction to Probability\nSmart Lab\nFall 2023\nMTG 3207 — Geometry Connections\nMTG 3212 — Geometry\nSTA 4852 — Applied Time Series\nSmart Lab"
+  }
+]
