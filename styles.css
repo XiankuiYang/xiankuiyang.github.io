@@ -1233,3 +1233,36 @@ body:has(.research-page) #title-block-header {
   }
 
 }
+
+@media screen and (max-width: 850px) {
+
+  /* About Me — full alignment */
+  .about-content p {
+    text-align: justify;
+    text-justify: inter-word;
+    line-height: 1.7;
+  }
+
+  /* Four navigation buttons — equal 2 x 2 layout */
+  .profile-links {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 6px;
+
+    width: 100%;
+    margin-top: 22px;
+  }
+
+  .profile-links .btn {
+    width: 100%;
+    min-width: 0;
+    margin: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    box-sizing: border-box;
+  }
+
+}
