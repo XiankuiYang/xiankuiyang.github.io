@@ -975,11 +975,17 @@ body:has(.research-page) #title-block-header {
 /* =========================
    Teaching Page
    ========================= */
+.teaching-page-title,
+#title-block-header {
+  display: none;
+}
 
 .teaching-page {
-  max-width: 1100px;
-  margin: 0 auto;
+  max-width: 1200px;
+  margin: 40px auto 70px auto;
+  padding: 0 25px;
 }
+
 
 .teaching-page > h2 {
   color: #006747;
@@ -998,6 +1004,9 @@ body:has(.research-page) #title-block-header {
   grid-template-columns: repeat(2, 1fr);
   gap: 24px;
   margin-bottom: 45px;
+  max-width: 1200px;
+  margin: 40px auto 70px auto;
+  padding: 0 25px;
 }
 
 .course-card {
@@ -1006,6 +1015,12 @@ body:has(.research-page) #title-block-header {
   border-radius: 4px;
   padding: 25px 28px;
   box-shadow: 0 5px 16px rgba(0, 80, 55, 0.05);
+  position: relative;
+  width: 100%;
+  padding: 30px 32px;
+  border: 1px solid #d9e3e0;
+  border-radius: 4px;
+  box-sizing: border-box;
 }
 
 .course-semester {
@@ -1125,10 +1140,19 @@ body:has(.research-page) #title-block-header {
   font-size: 0.82rem;
 }
 
+.course-card p {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
 /* Responsive */
 
-@media (max-width: 800px) {
+@media (max-width: 850px) {
   .instructor-grid {
     grid-template-columns: 1fr;
+  }
+
+  .teaching-page {
+    padding: 0 18px;
   }
 }
