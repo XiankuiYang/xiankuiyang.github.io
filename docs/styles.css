@@ -329,6 +329,71 @@ main.content {
   }
 }
 
+@media (max-width: 800px) {
+
+  .home-about {
+    grid-template-columns: 1fr;
+    gap: 30px;
+
+    width: 100%;
+    max-width: 100%;
+
+    margin: 0 auto;
+    padding: 0 20px 40px 20px;
+
+    box-sizing: border-box;
+  }
+
+  /* Profile photo */
+
+  .profile-photo {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .profile-photo img {
+    width: 260px;
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* About Me */
+
+  .about-content {
+    width: 100%;
+    max-width: 100%;
+    padding-top: 0;
+    box-sizing: border-box;
+  }
+
+  .about-content h2 {
+    font-size: 1.6rem;
+    margin-bottom: 15px;
+  }
+
+  .about-content p {
+    line-height: 1.7;
+  }
+
+  /* Buttons */
+
+  .profile-links {
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .profile-links .btn {
+    min-width: 105px;
+  }
+
+  /* Contact links */
+
+  .contact-links {
+    flex-wrap: wrap;
+    gap: 12px 22px;
+  }
+}
+
 /* =========================
    About Me section
    ========================= */
@@ -1153,6 +1218,6 @@ body:has(.research-page) #title-block-header {
   }
 
   .teaching-page {
-    padding: 0 18px;
+    padding: 0 28px;
   }
 }
