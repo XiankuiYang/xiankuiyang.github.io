@@ -329,70 +329,7 @@ main.content {
   }
 }
 
-@media (max-width: 800px) {
 
-  .home-about {
-    grid-template-columns: 1fr;
-    gap: 30px;
-
-    width: 100%;
-    max-width: 100%;
-
-    margin: 0 auto;
-    padding: 0 20px 40px 20px;
-
-    box-sizing: border-box;
-  }
-
-  /* Profile photo */
-
-  .profile-photo {
-    width: 100%;
-    justify-content: center;
-  }
-
-  .profile-photo img {
-    width: 260px;
-    max-width: 100%;
-    height: auto;
-  }
-
-  /* About Me */
-
-  .about-content {
-    width: 100%;
-    max-width: 100%;
-    padding-top: 0;
-    box-sizing: border-box;
-  }
-
-  .about-content h2 {
-    font-size: 1.6rem;
-    margin-bottom: 15px;
-  }
-
-  .about-content p {
-    line-height: 1.7;
-  }
-
-  /* Buttons */
-
-  .profile-links {
-    flex-wrap: wrap;
-    gap: 8px;
-  }
-
-  .profile-links .btn {
-    min-width: 105px;
-  }
-
-  /* Contact links */
-
-  .contact-links {
-    flex-wrap: wrap;
-    gap: 12px 22px;
-  }
-}
 
 /* =========================
    About Me section
@@ -1212,12 +1149,87 @@ body:has(.research-page) #title-block-header {
 
 /* Responsive */
 
-@media (max-width: 850px) {
-  .instructor-grid {
-    grid-template-columns: 1fr;
+@media screen and (max-width: 850px) {
+
+  /* =========================
+     HOME — ABOUT ME
+     ========================= */
+
+  .home-about {
+    display: grid !important;
+    grid-template-columns: minmax(0, 1fr) !important;
+
+    width: 100% !important;
+    max-width: 100% !important;
+
+    gap: 28px;
+    margin: 0 auto;
+    padding: 0 22px 40px 22px;
+
+    box-sizing: border-box;
   }
 
-  .teaching-page {
-    padding: 0 28px;
+  .profile-photo {
+    width: 100%;
+    max-width: 100%;
   }
+
+  .profile-photo img {
+    width: 260px;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  .about-content {
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0;
+    padding-top: 0;
+    box-sizing: border-box;
+  }
+
+  .about-content h2 {
+    font-size: 1.6rem;
+  }
+
+  .profile-links {
+    flex-wrap: wrap;
+  }
+
+  .contact-links {
+    flex-wrap: wrap;
+  }
+
+
+  /* =========================
+     TEACHING
+     ========================= */
+
+  .teaching-page {
+    width: 100%;
+    max-width: 100%;
+    padding: 0 18px;
+    box-sizing: border-box;
+  }
+
+  .instructor-grid {
+    grid-template-columns: minmax(0, 1fr) !important;
+    gap: 24px;
+  }
+
+  .course-card {
+    width: 100%;
+    max-width: 100%;
+    padding: 24px 20px;
+    box-sizing: border-box;
+  }
+
+  /* Do NOT justify text on a narrow phone screen */
+  .course-description,
+  .course-card p {
+    text-align: left !important;
+    text-justify: auto;
+  }
+
 }
