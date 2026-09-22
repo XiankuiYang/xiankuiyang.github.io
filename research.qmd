@@ -1,12 +1,12 @@
 ---
-title: "Research"
+title: ""
 title-block-banner: false
 page-layout: full
 ---
-<div class="research-page">
+
+::: {.research-page}
 
 <div class="research-intro">
-
 <p>
 My research focuses on statistical methodology, optimal experimental design,
 computational statistics, optimization, and machine learning. I am particularly
@@ -14,24 +14,27 @@ interested in developing computational methods for complex statistical
 problems, including multi-objective design optimization and robust statistical
 modeling.
 </p>
-
 </div>
 
 
-<div class="research-grid">
+::: {.research-grid}
 
-<div class="research-card">
+
+<!-- ====================================================== -->
+<!-- 01 OPTIMAL EXPERIMENTAL DESIGN -->
+<!-- ====================================================== -->
+
+::: {.research-card}
 
 <div class="research-number">01</div>
 
-<h2>Optimal Experimental Design</h2>
+<div class="research-title">
+Optimal Experimental Design
+</div>
 
-<p>
-My research investigates computational approaches for constructing optimal
-experimental designs under multiple competing criteria. Current work focuses
-on multi-objective optimization involving I-, G-, and D-optimality and the
-construction of Pareto-optimal design sets.
-</p>
+<div class="research-description">
+My research in optimal experimental design focuses on constructing efficient designs for statistical modeling and scientific experimentation. It considers multiple design objectives, computational optimization, and the trade-offs that arise when different statistical criteria must be satisfied simultaneously. This work aims to make optimal design methods more flexible and computationally practical for complex experimental settings.
+</div>
 
 <div class="research-tags">
 <span>Optimal Design</span>
@@ -39,76 +42,355 @@ construction of Pareto-optimal design sets.
 <span>Pareto Front</span>
 </div>
 
+<div class="research-toggle" onclick="toggleResearch(this)">
+<span class="research-arrow">▶</span>
+<span class="research-toggle-text">View related publication</span>
 </div>
 
-<div class="research-card">
+<div class="research-expanded">
+
+<div class="research-pub-title">
+Multi-Objective Optimal Experimental Design
+</div>
+
+<div class="research-section-intro">
+This work develops particle-swarm-based optimization methods for constructing
+Pareto-optimal experimental designs under multiple competing criteria,
+including I-, G-, and D-optimality. The goal is to efficiently characterize
+trade-offs among different design objectives and provide a collection of
+candidate designs rather than a single optimal solution.
+</div>
+
+
+
+<div class="research-pub-title">
+Input-Response Experimental Design
+</div>
+
+<div class="research-publication">
+
+<strong>Yang, X.</strong>, Lu, L., & Anderson-Cook, C. M. (2024).
+Input-response space-filling designs incorporating response uncertainty.
+<em>Statistical Analysis and Data Mining: The ASA Data Science Journal</em>,
+17(1), e11648.
+<a href="https://doi.org/10.1002/sam.11648"
+   target="_blank">DOI</a>
+
+<div class="paper-note">
+Develops an input-response space-filling design framework that incorporates
+response uncertainty, allowing the design to account for coverage in both
+the experimental input space and the resulting response space.
+</div>
+
+</div>
+
+</div>
+
+:::
+
+
+<!-- ====================================================== -->
+<!-- 02 SEQUENTIAL EXPERIMENTAL DESIGN -->
+<!-- ====================================================== -->
+
+::: {.research-card}
 
 <div class="research-number">02</div>
 
-<h2>Sequential Experimental Design</h2>
+<div class="research-title">
+Sequential Experimental Design
+</div>
 
-<p>
-My research also considers sequential experimental design, where new design
-points are selected adaptively using information obtained from previous
-observations. I am particularly interested in space-filling strategies and
-computational methods for sequentially exploring the design space while
-improving the efficiency of data collection.
-</p>
+<div class="research-description">
+My research in sequential experimental design focuses on efficient data collection when experiments can be conducted and updated over multiple stages. It includes space-filling design, adaptive selection of new experimental points, and design augmentation based on information already collected. These methods are particularly useful for exploring complex design spaces while controlling experimental cost and improving the information obtained from each stage.
+</div>
 
 <div class="research-tags">
-  <span>Sequential Design</span>
-  <span>Space-Filling Design</span>
-  <span>Adaptive Design</span>
-  <div class="tag-break"></div>
-  <span>Design Augmentation</span>
+<span>Sequential Design</span>
+<span>Space-Filling Design</span>
+<span>Adaptive Design</span>
+<span>Design Augmentation</span>
+</div>
+
+<div class="research-toggle" onclick="toggleResearch(this)">
+<span class="research-arrow">▶</span>
+<span class="research-toggle-text">View related publications</span>
+</div>
+
+<div class="research-expanded">
+
+<div class="research-pub-title">
+Space-Filling Design Methodology
+</div>
+
+
+<div class="research-publication">
+<strong>Yang, X.</strong>, Lu, L., & Anderson-Cook, C. M. (2026).
+Quick Input-Response Space-Filling (QIRSF) Designs.
+<em>Quality and Reliability Engineering International</em>.
+<a href="https://doi.org/10.1002/qre.70062" target="_blank">DOI</a>
+
+<div class="paper-note">
+Develops a fast and scalable input-response space-filling approach that
+jointly considers input-space coverage and anticipated response behavior
+while substantially reducing computational cost.
+</div>
+</div>
+
+
+<div class="research-publication">
+<strong>Yang, X.</strong>, Lu, L., & Anderson-Cook, C. M. (2025).
+A scalable algorithm for generating non-uniform space-filling designs.
+<em>Journal of Quality Technology</em>, 1–19.
+<a href="https://doi.org/10.1080/00224065.2025.2513504" target="_blank">DOI</a>
+
+<div class="paper-note">
+Develops a scalable method for non-uniform space-filling designs that allows
+experimental points to be concentrated in regions requiring greater attention.
+</div>
+</div>
+
+
+<div class="research-publication">
+<strong>Yang, X.</strong>, Lu, L., & Anderson-Cook, C. M. (2024).
+Input-response space-filling designs incorporating response uncertainty.
+<em>Statistical Analysis and Data Mining: The ASA Data Science Journal</em>,
+17(1), e11648.
+<a href="https://doi.org/10.1002/sam.11648" target="_blank">DOI</a>
+
+<div class="paper-note">
+Extends input-response space-filling design by incorporating uncertainty
+in anticipated responses into the design construction process.
+</div>
 </div>
 
 </div>
 
+:::
 
-<div class="research-card">
+
+<!-- ====================================================== -->
+<!-- 03 STATISTICAL METHODOLOGY & APPLICATIONS -->
+<!-- ====================================================== -->
+
+::: {.research-card}
 
 <div class="research-number">03</div>
 
-<h2>Statistical Methodology & Robust Modeling</h2>
+<div class="research-title">
+Statistical Methodology & Applications
+</div>
 
-<p>
-I study statistical modeling methods with particular interest in robustness
-and alternative estimation criteria. Recent work examines logistic regression
-under data contamination and compares likelihood-based estimation with
-distance-based methods for improving robustness to outliers.
-</p>
+<div class="research-description">
+My research in statistical methodology connects statistical modeling with real-world data analysis. It includes regression and longitudinal methods, statistical inference, and data-driven approaches for understanding complex relationships in observational data. Applications have covered transportation, mobility, travel behavior, equity, resilience, and other social and behavioral problems, demonstrating how statistical methods can support both scientific understanding and practical decision-making.
+</div>
 
 <div class="research-tags">
 <span>Statistical Modeling</span>
-<span>Logistic Regression</span>
-<span>Robust Statistics</span>
+<span>Transportation</span>
+<span>Longitudinal Analysis</span>
+<span>Applied Statistics</span>
+</div>
+
+<div class="research-toggle" onclick="toggleResearch(this)">
+<span class="research-arrow">▶</span>
+<span class="research-toggle-text">View related publications</span>
+</div>
+
+<div class="research-expanded">
+
+<div class="research-pub-title">
+Transportation & Mobility Applications
+</div>
+
+<div class="research-publication">
+
+<strong>Yang, X.</strong>, Chen, P., & Zhang, Y. (2023).
+How mentally healthy were we during the pandemic? Findings from changed travel behavior.
+<em>Journal of Transport & Health</em>, 29, 101587.
+<a href="https://doi.org/10.1016/j.jth.2023.101587"
+   target="_blank">DOI</a>
+
+<div class="paper-note">
+Examines the relationship between changes in travel behavior and mental health
+during the COVID-19 pandemic, highlighting how changes in daily mobility were
+associated with individual well-being.
 </div>
 
 </div>
 
 
-<div class="research-card">
+<div class="research-publication">
+Chen, P., <strong>Yang, X.</strong>, Zhang, Y., & Hud, S. (2025).
+The resiliency of transit and ride-hailing system through the coronavirus
+pandemic: Lessons from six large US cities.
+<em>Case Studies on Transport Policy</em>, 101470.
+<a href="https://doi.org/10.1016/j.cstp.2025.101470" target="_blank">DOI</a>
+
+<div class="paper-note">
+Examines transit and ride-hailing systems across six large U.S. cities to
+study transportation-system responsiveness and resilience during the
+COVID-19 pandemic.
+</div>
+</div>
+
+
+<div class="research-publication">
+Tao, R., <strong>Yang, X.</strong>, Hao, F., & Chen, P. (2024).
+Demographic disparity and influences in electric vehicle adoption:
+A Florida case study.
+<em>Transportation Research Part D: Transport and Environment</em>,
+136, 104465.
+<a href="https://doi.org/10.1016/j.trd.2024.104465" target="_blank">DOI</a>
+
+<div class="paper-note">
+Uses vehicle registration, demographic, and socioeconomic information to
+investigate disparities in electric vehicle adoption across Florida.
+</div>
+</div>
+
+
+<div class="research-publication">
+Chen, P., <strong>Yang, X.</strong>, & Zhang, Y. (2024).
+Exploring the interconnection between telecommuting, trip reduction,
+and transportation equity amidst the coronavirus pandemic.
+<em>Transportation Letters</em>, 1–11.
+<a href="https://doi.org/10.1080/19427867.2024.2366377" target="_blank">DOI</a>
+
+<div class="paper-note">
+Investigates relationships among telecommuting, changes in travel behavior,
+and transportation equity across different population groups.
+</div>
+</div>
+
+
+<div class="research-publication">
+Chen, P., & <strong>Yang, X.</strong> (2023).
+Revisit employer-based travel demand management: A longitudinal analysis.
+<em>Transport Policy</em>, 131, 22–31.
+<a href="https://doi.org/10.1016/j.tranpol.2022.11.014" target="_blank">DOI</a>
+
+<div class="paper-note">
+Uses longitudinal data to evaluate employer-based travel demand management
+strategies and their influence on commuting behavior.
+</div>
+</div>
+
+</div>
+
+:::
+
+
+<!-- ====================================================== -->
+<!-- 04 COMPUTATIONAL STATISTICS & MACHINE LEARNING -->
+<!-- ====================================================== -->
+
+::: {.research-card}
 
 <div class="research-number">04</div>
 
-<h2>Computational Statistics & Machine Learning</h2>
+<div class="research-title">
+Computational Statistics & Machine Learning
+</div>
 
-<p>
-I develop and apply computational optimization methods for statistical
-problems, with particular emphasis on particle swarm optimization and
-population-based algorithms. My work also explores machine learning methods
-and computational implementations using R, Python, and PyTorch.
-</p>
+<div class="research-description">
+My research in computational statistics and machine learning combines statistical methodology with modern computational tools for analyzing complex data. It includes robust statistical modeling, optimization, interpretable machine learning, survival analysis, and neural-network methods. A central interest is understanding not only predictive performance, but also model robustness and interpretation, with applications ranging from behavioral and transportation data to biomedical and health-related classification problems.
+</div>
 
 <div class="research-tags">
-<span>Particle Swarm Optimization</span>
 <span>Machine Learning</span>
+<span>Robust Modeling</span>
+<span>Interpretable AI</span>
 <span>Scientific Computing</span>
 </div>
 
+<div class="research-toggle" onclick="toggleResearch(this)">
+<span class="research-arrow">▶</span>
+<span class="research-toggle-text">View related research & publications</span>
+</div>
+
+
+<div class="research-expanded">
+
+
+<div class="research-pub-title">
+Robust Logistic Modeling and Neural Networks
+</div>
+
+<div class="research-section-intro">
+This work compares conventional likelihood and cross-entropy approaches with
+alternative distance-based estimation methods. The methods are evaluated
+through simulation studies and real-world classification problems, including
+biomedical and health-related data, with attention to robustness, predictive
+performance, and computational implementation.
+</div>
+
+
+<div class="research-pub-title">
+Machine Learning Applications
+</div>
+
+
+<div class="research-publication">
+
+Chen, P., <strong>Yang, X.</strong>, Hao, F., & Tao, R. (2026).
+Decoding electric vehicle adoption using XGBoost and SHAP analysis.
+<em>Travel Behaviour and Society</em>, 42, 101125.
+<a href="https://doi.org/10.1016/j.tbs.2025.101125"
+   target="_blank">DOI</a>
+
+<div class="paper-note">
+Combines XGBoost with SHAP analysis to identify and interpret demographic,
+socioeconomic, and behavioral factors associated with electric vehicle adoption.
+</div>
+
+</div>
+
+
+<div class="research-publication">
+
+Chen, P., & <strong>Yang, X.</strong> (2025).
+Premature casual carpooling in Texas: analyzing customer churn in the
+Metropia experiment with survival analysis and machine learning.
+<em>Case Studies on Transport Policy</em>, 101587.
+<a href="https://doi.org/10.1016/j.cstp.2025.101587"
+   target="_blank">DOI</a>
+
+<div class="paper-note">
+Combines survival analysis and machine learning to identify behavioral,
+usage, and contextual factors associated with premature customer churn.
 </div>
 
 </div>
 
 </div>
+
+:::
+
+
+:::
+:::
+
+
+<script>
+function toggleResearch(button) {
+
+  const content = button.nextElementSibling;
+  const arrow = button.querySelector(".research-arrow");
+  const text = button.querySelector(".research-toggle-text");
+
+  const isOpen = content.classList.contains("research-expanded-open");
+
+  if (isOpen) {
+
+    content.classList.remove("research-expanded-open");
+    arrow.textContent = "▶";
+
+  } else {
+
+    content.classList.add("research-expanded-open");
+    arrow.textContent = "▼";
+
+  }
+}
+</script>

@@ -11,12 +11,20 @@ title: "Teaching"
 ::: {.course-card}
 <div class="course-semester">Fall 2026</div>
 
+<div class="course-syllabus">
+<a href="files/Syllabus STA4322 - Fall2026.pdf" target="_blank">
+<i class="bi bi-file-earmark-pdf"></i> Syllabus
+</a>
+</div>
+
 ### STA 4322 — Introduction to Mathematical Statistics I {.unanchored}
 
 <div class="course-university">University of South Florida</div>
 
 An introduction to mathematical statistics covering probability distributions,
 sampling distributions, estimation, and fundamental statistical theory.
+
+
 
 <div class="course-tags">
 <span>Mathematical Statistics</span>
@@ -29,12 +37,19 @@ sampling distributions, estimation, and fundamental statistical theory.
 ::: {.course-card}
 <div class="course-semester">Spring 2026</div>
 
+<div class="course-syllabus">
+<a href="files/Syllabus STA4222 - Spring2026.pdf" target="_blank">
+<i class="bi bi-file-earmark-pdf"></i> Syllabus
+</a>
+</div>
+
 ### STA 4222 — Sample Survey Design {.unanchored}
 
 <div class="course-university">University of South Florida</div>
 
 Topics include principles of sample survey design, probability sampling,
 estimation, and practical methods for collecting and analyzing survey data.
+
 
 <div class="course-tags">
 <span>Survey Sampling</span>
@@ -47,12 +62,20 @@ estimation, and practical methods for collecting and analyzing survey data.
 ::: {.course-card}
 <div class="course-semester">Fall 2024</div>
 
+<div class="course-syllabus">
+<a href="files/Syllabus STA4102 - Fall2024.pdf" target="_blank">
+<i class="bi bi-file-earmark-pdf"></i> Syllabus
+</a>
+</div>
+
 ### STA 4102 — Methods for Applied Statistics {.unanchored}
 
 <div class="course-university">University of South Florida</div>
 
 Applied statistical methods with emphasis on statistical analysis,
 interpretation of results, and applications to real-world data.
+
+
 
 <div class="course-tags">
 <span>Applied Statistics</span>

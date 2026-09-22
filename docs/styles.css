@@ -562,146 +562,352 @@ main.content {
   }
 }
 
+
 /* =========================================================
    RESEARCH PAGE
    ========================================================= */
 
 .research-page {
-  max-width: 1150px;
+  max-width: 1180px;
   margin: 0 auto;
-  padding: 35px 25px 70px;
+  padding: 20px 30px 60px;
 }
 
-.quarto-title-block {
+body:has(.research-page) #title-block-header {
   display: none;
 }
 
-/* ---------- Research introduction ---------- */
+
+/* =========================================================
+   RESEARCH INTRODUCTION
+   ========================================================= */
 
 .research-intro {
-  max-width: 850px;
-  margin: 0 auto 45px;
+  max-width: 900px;
+  margin: 0 auto 40px;
   text-align: center;
-}
 
-.research-intro h1 {
-  color: #006747;
-  font-size: 2.4rem;
-  font-weight: 700;
-  margin-bottom: 18px;
+  color: #333;
+  font-size: 1rem;
+  line-height: 1.8;
 }
 
 .research-intro p {
-  font-size: 1.05rem;
-  line-height: 1.8;
-  color: #3f4a46;
+  margin: 0;
 }
 
 
-/* ---------- Research grid ---------- */
+/* =========================================================
+   RESEARCH GRID
+   ========================================================= */
 
 .research-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 24px;
+  align-items: start;
 }
 
 
-/* ---------- Individual research card ---------- */
+/* =========================================================
+   RESEARCH CARD
+   ========================================================= */
 
 .research-card {
-  position: relative;
-  background: linear-gradient(
-    145deg,
-    #ffffff 0%,
-    #f5faf7 100%
-  );
+  background: #ffffff;
 
-  border: 1px solid #d7e5df;
+  border: 1px solid #d6e3df;
   border-radius: 4px;
 
-  padding: 32px 28px 28px;
+  padding: 28px 30px 24px;
 
-  box-shadow:
-    0 5px 18px rgba(0, 70, 50, 0.06);
+  box-shadow: 0 8px 18px rgba(0, 80, 60, 0.04);
 
-  transition:
-    transform 0.25s ease,
-    box-shadow 0.25s ease;
-}
-
-.research-card:hover {
-  transform: translateY(-5px);
-
-  box-shadow:
-    0 10px 28px rgba(0, 70, 50, 0.12);
+  min-width: 0;
 }
 
 
-/* ---------- Number ---------- */
+/* =========================================================
+   CARD NUMBER
+   ========================================================= */
 
 .research-number {
-  font-family: Georgia, serif;
-  font-size: 2.6rem;
+  color: #d9e9e4;
+
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 2.1rem;
   font-weight: 700;
-  color: rgba(0, 103, 71, 0.15);
-  margin-bottom: 5px;
+
+  line-height: 1;
+  margin-bottom: 16px;
 }
 
 
-/* ---------- Card title ---------- */
+/* =========================================================
+   CARD TITLE
+   ========================================================= */
 
-.research-card h2 {
-  color: #006747;
-  font-size: 1.25rem;
+.research-title {
+  color: #006f54;
+
+  font-size: 1.15rem;
+  font-weight: 700;
   line-height: 1.3;
-  margin-top: 0;
-  margin-bottom: 18px;
+
+  padding-bottom: 12px;
+  margin-bottom: 16px;
+
+  border-bottom: 1px solid #d9e3e0;
 }
 
 
-/* ---------- Card text ---------- */
+/* =========================================================
+   CARD DESCRIPTION
+   ========================================================= */
 
-.research-card p {
-  color: #444f4b;
+.research-description {
+  color: #2f3634;
+
+  font-size: 0.94rem;
   line-height: 1.7;
-  font-size: 0.96rem;
-  margin-bottom: 25px;
+  text-align: justify;
+  text-justify: inter-word;
+  margin-bottom: 20px;
 }
 
 
-/* ---------- Research tags ---------- */
+/* =========================================================
+   TAGS
+   ========================================================= */
 
 .research-tags {
   display: flex;
   flex-wrap: wrap;
+
   gap: 6px;
+
+  margin-top: 6px;
+  margin-bottom: 14px;
 }
 
 .research-tags span {
-  background: #e7f1ed;
-  color: #006747;
+  display: inline-block;
 
-  padding: 5px 10px;
-  border-radius: 15px;
+  background: #edf6f3;
+  color: #007a5e;
 
-  font-size: 0.76rem;
-  font-weight: 500;
+  border-radius: 20px;
+
+  padding: 5px 11px;
+
+  font-size: 0.75rem;
+  line-height: 1.2;
+
+  white-space: nowrap;
 }
 
 
+/* =========================================================
+   EXPAND BUTTON
+   ========================================================= */
 
-/* ---------- Responsive ---------- */
+.research-toggle {
+  display: flex;
+  align-items: center;
 
-@media (max-width: 900px) {
+  gap: 7px;
+
+  margin-top: 12px;
+  padding-top: 2px;
+
+  color: #66736f;
+
+  font-size: 0.9rem;
+  line-height: 1.4;
+
+  cursor: pointer;
+  user-select: none;
+
+  transition: color 0.2s ease;
+}
+
+.research-toggle:hover {
+  color: #007a5e;
+}
+
+.research-arrow {
+  width: 12px;
+
+  color: #77847f;
+
+  font-size: 0.72rem;
+  line-height: 1;
+
+  flex-shrink: 0;
+}
+
+.research-toggle-text {
+  font-weight: 400;
+}
+
+
+/* =========================================================
+   EXPANDED AREA
+   ========================================================= */
+
+.research-expanded {
+  display: none;
+
+  margin-top: 20px;
+  padding-top: 20px;
+
+  border-top: 1px solid #d9e3e0;
+}
+
+.research-expanded.research-expanded-open {
+  display: block;
+}
+
+
+/* =========================================================
+   EXPANDED SECTION TITLE
+   ========================================================= */
+
+.research-pub-title {
+  color: #006f54;
+
+  font-size: 1.02rem;
+  font-weight: 700;
+
+  margin-bottom: 10px;
+}
+
+
+/* =========================================================
+   GENERAL CONTRIBUTION DESCRIPTION
+   ========================================================= */
+
+.research-contribution {
+  color: #4d5955;
+
+  font-size: 0.9rem;
+  line-height: 1.65;
+  text-align: justify;
+  text-justify: inter-word;
+  margin-bottom: 18px;
+}
+
+.research-section-intro {
+  color: #4d5955;
+
+  font-size: 0.9rem;
+  line-height: 1.65;
+  text-align: justify;
+  text-justify: inter-word;
+  margin-bottom: 18px;
+}
+
+
+/* =========================================================
+   PUBLICATIONS
+   ========================================================= */
+
+.research-publication {
+  color: #222;
+
+  font-size: 0.88rem;
+  line-height: 1.6;
+
+  margin-top: 16px;
+  padding-top: 16px;
+
+  border-top: 1px solid #edf1f0;
+}
+
+.research-publication:first-of-type {
+  margin-top: 0;
+}
+
+.research-publication strong {
+  color: #007a5e;
+  font-weight: 700;
+}
+
+.research-publication em {
+  color: #333;
+}
+
+.research-publication a {
+  color: #007a5e;
+
+  font-weight: 600;
+  text-decoration: none;
+
+  margin-left: 3px;
+}
+
+.research-publication a:hover {
+  text-decoration: underline;
+}
+
+
+/* =========================================================
+   INDIVIDUAL PAPER CONTRIBUTION
+   ========================================================= */
+
+.paper-note {
+  color: #606b67;
+
+  font-size: 0.84rem;
+  line-height: 1.55;
+
+  margin-top: 8px;
+  padding-left: 12px;
+  text-align: justify;
+  text-justify: inter-word;
+  border-left: 2px solid #d5e8e2;
+}
+
+
+/* =========================================================
+   MOBILE
+   ========================================================= */
+
+@media (max-width: 850px) {
+
+  .research-page {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 
   .research-grid {
     grid-template-columns: 1fr;
   }
 
   .research-card {
-    max-width: 700px;
-    margin: 0 auto;
+    padding: 24px;
+  }
+
+}
+
+
+@media (max-width: 500px) {
+
+  .research-page {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  .research-card {
+    padding: 20px;
+  }
+
+  .research-title {
+    font-size: 1.05rem;
+  }
+
+  .research-tags span {
+    white-space: normal;
   }
 
 }
@@ -863,6 +1069,61 @@ main.content {
   color: #007a5e;
 }
 
+/* Course card */
+.course-card {
+  position: relative;
+}
+
+/* Semester */
+.course-semester {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: #007a5e;
+  margin-bottom: 8px;
+  letter-spacing: 0.2px;
+}
+
+/* Course title */
+.course-card h3 {
+  padding-right: 0;
+  margin-top: 0;
+  max-width: 100%;
+}
+
+/* Syllabus button — top right */
+.course-syllabus {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  margin: 0;
+}
+
+.course-syllabus a {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+
+  color: #007a5e;
+  font-size: 0.78rem;
+  font-weight: 600;
+  text-decoration: none;
+
+  padding: 5px 8px;
+  border: 1px solid #007a5e;
+  border-radius: 4px;
+
+  transition: all 0.2s ease;
+}
+
+.course-syllabus a:hover {
+  background-color: #007a5e;
+  color: white;
+  text-decoration: none;
+}
+
+.course-syllabus i {
+  font-size: 0.82rem;
+}
 
 /* Responsive */
 
